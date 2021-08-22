@@ -1,0 +1,64 @@
+body {
+    background: rgb(163, 163, 163);
+}
+
+.container {
+    background: whitesmoke;
+    width: 400px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -200px;
+}
+
+#display {
+    width: 98.2%;
+    height: 15%;
+    font-size: 65px;
+    text-align: right;
+}
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.btn {
+    font-size: 25px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(24, 24, 24);
+    color: white;
+    width: 100px;
+    height: 84px;
+    
+}
+
+.btn:hover {
+    background-color: rgb(8, 8, 8);
+    border: 1px solid rgb(8, 8, 8);
+}
+
+.purple {
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.purple:hover {
+    background-color: rgb(104, 1, 104);
+    border: 1px solid rgb(104, 1, 104);
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+    border: 1px solid yellow;
+}
+
+.yellow:hover {
+    background-color: rgb(148, 148, 58);
+    border: 1px solid rgb(148, 148, 58);
+}
